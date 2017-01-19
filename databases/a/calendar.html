@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Artem Inc. | Database A -> Calendar</title>
+<link href="/favicons/databasealogo.ico" rel="icon" type="image/x-icon" />
+<link rel="stylesheet" href="menuBar.css" type="text/css"/>
+<script src="check.js"></script>
+</head>
+<body>
+<style>
+table {
+  border-collapse:collapse;
+  border:3.5px solid #ffcc66;
+  background-color:#b30000;
+  font-size:40px;
+  width:750px;
+  
+}
+h1#month {
+  width:170px;
+  height:40px;
+  background-color:#b30000;
+  border-style:solid;
+  border-radius:7.5px;
+  border-width:5px;
+  border-color:#ffcc66;
+  color:white;
+}
+table td {
+  border:3.5px solid #ffcc66;
+  height:69px;
+}
+table tr {
+  height:63px;
+}
+.currentDay {
+  background-color:#ffcc66;
+  color:#b30000;
+  font-weight:bold;
+}
+</style>
+<div id="menu">
+<a href="home.html"><button id="menubutton"><b>Home</b></button></a>
+<a href="calendar.html"><button id="menubutton"><b>Calendar</b></button></a>
+<a href="latestnews.html"><button id="menubutton"><b>Latest News</b></button></a>
+<a href="#"><button onclick="logOut()" id="menubutton"><b>Log Out</b></button></a>
+<b id="greeting"></b>
+</div>
+<hr />
+<center><h1 id="month"></h1>
+<table>
+<thead>
+<th>Sun</th>
+<th>Mon</th>
+<th>Tue</th>
+<th>Wed</th>
+<th>Thu</th>
+<th>Fri</th>
+<th>Sat</th>
+</thead>
+<tbody>
+<tr>
+<td id="row1"></td>
+<td id="row1"></td>
+<td id="row1"></td>
+<td id="row1"></td>
+<td id="row1"></td>
+<td id="row1"></td>
+<td id="row1"></td>
+</tr>
+<tr>
+<td id="row2"></td>
+<td id="row2"></td>
+<td id="row2"></td>
+<td id="row2"></td>
+<td id="row2"></td>
+<td id="row2"></td>
+<td id="row2"></td>
+</tr>
+<tr>
+<td id="row3"></td>
+<td id="row3"></td>
+<td id="row3"></td>
+<td id="row3"></td>
+<td id="row3"></td>
+<td id="row3"></td>
+<td id="row3"></td>
+</tr>
+<tr>
+<td id="row4"></td>
+<td id="row4"></td>
+<td id="row4"></td>
+<td id="row4"></td>
+<td id="row4"></td>
+<td id="row4"></td>
+<td id="row4"></td>
+</tr>
+<tr>
+<td id="row5"></td>
+<td id="row5"></td>
+<td id="row5"></td>
+<td id="row5"></td>
+<td id="row5"></td>
+<td id="row5"></td>
+<td id="row5"></td>
+</tr>
+<tr>
+<td id="row6"></td>
+<td id="row6"></td>
+<td id="row6"></td>
+<td id="row6"></td>
+<td id="row6"></td>
+<td id="row6"></td>
+<td id="row6"></td>
+</tr>
+
+</tbody>
+</table>
+</center>
+<script src="calendar.js"></script>
+<script src="menuBar.js"></script>
+</body>
+</html>
