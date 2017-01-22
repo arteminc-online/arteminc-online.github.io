@@ -22,14 +22,23 @@
     cursor:auto;
     color:white;
   }
+  input {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 2px solid #ffdd99;
+  }
+  input:focus{
+    border-bottom: 2.5px solid #ffcc66;
+  }
 </style>
 <center>
 <h1><strong>Welcome to Database A</strong></h1>
 <strong>Username:</strong>
-<input id="username" required></input>
+<input id="username" placeholder="Username" required></input>
 <br />
 <strong>Password:</strong>
-<input id="password" type="password" required></input>
+<input id="password" type="password" placeholder="Password" required></input>
 <p style="color:white">.</p>
   <button onclick="authenticateData()" id="signin"><b>Sign-In</b></button>
 <p id="error" style="color:red"></p>
