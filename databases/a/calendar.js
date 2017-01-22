@@ -12,7 +12,7 @@ if(d.getFullYear() % 4 === 0) {
 }
 numOfDays = months[m][1];
 m = months[m][0];
-document.querySelector("h1#month").innerHTML = m + " " + d.getFullYear();
+document.querySelector("h1#month").innerHTML = m + " " +d.getFullYear();
 var day = 1;
 var row = 1;
 var cellNum = 1;
