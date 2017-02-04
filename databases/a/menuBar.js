@@ -6,3 +6,6 @@ function logOut () {
   localStorage.setItem("currentUser", "none");
   window.location.replace("index.html");
 }
+function highlight() {
+  $(this).animate({backgroundColor: "#ff0000" });
+}
