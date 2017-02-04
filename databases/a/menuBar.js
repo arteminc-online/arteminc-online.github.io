@@ -7,5 +7,5 @@ function logOut () {
   window.location.replace("index.html");
 }
 function highlight() {
-  $(this).animate({backgroundColor: "#ff0000" });
+  $("#menubutton").animate({backgroundColor: "#ff0000" });
 }
