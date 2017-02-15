@@ -11,6 +11,7 @@ button#menubutton {
 body{
   color:white;
   background-color:black;
+  font-family:Verdana;
 }
 a {
   text-decoration:none;
