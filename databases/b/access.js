@@ -17,7 +17,7 @@ function authenticateData () {
      localStorage.setItem("isSignedIn", "true");
      localStorage.setItem("currentUser", "Taylor");
      window.location.replace("home.html");
-   } else if(username.value === "eugene668" && password.value === "D!aM0nd2") {
+   } else if(username.value === "eugene668" && password.value === "diamondminecart") {
      localStorage.setItem("isSignedIn", "true");
      localStorage.setItem("currentUser", "Eugene");
      window.location.replace("home.html");
