@@ -7,6 +7,7 @@ button#menubutton {
   border-color:#ffcc66;
   cursor:auto;
   color:white;
+  font-variant:small-caps;
 }
 body{
   color:white;
