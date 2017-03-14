@@ -1,14 +1,15 @@
 button#menubutton {
   height:50px;
   background-color:white;
-  border-radius:7.5px;
+  border-radius:0px;
   cursor:auto;
   color:#b30000;
   font-variant:small-caps;
 }
 button#menubutton:hover {
-  height:30px;
+  height:50px;
   background-color:#b30000;
+  border-radius:0px;
   cursor:auto;
   color:white;
   font-variant:small-caps;
