@@ -1,5 +1,5 @@
 button#menubutton {
-  height:30px;
+  height:50px;
   background-color:white;
   border-radius:7.5px;
   cursor:auto;
@@ -8,10 +8,9 @@ button#menubutton {
 }
 button#menubutton:hover {
   height:30px;
-  background-color:#ffcc66;
-  border-radius:7.5px;
+  background-color:#b30000;
   cursor:auto;
-  color:#b30000;
+  color:white;
   font-variant:small-caps;
 }
 body{
