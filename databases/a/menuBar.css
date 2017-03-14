@@ -5,6 +5,7 @@ button#menubutton {
   cursor:auto;
   color:#b30000;
   font-variant:small-caps;
+  box-shadow:none;
 }
 button#menubutton:hover {
   height:50px;
