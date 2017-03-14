@@ -1,12 +1,17 @@
 button#menubutton {
   height:30px;
-  background-color:#b30000;
-  border-style:solid;
+  background-color:white;
   border-radius:7.5px;
-  border-width:5px;
-  border-color:#ffcc66;
   cursor:auto;
-  color:white;
+  color:#b30000;
+  font-variant:small-caps;
+}
+button#menubutton:hover {
+  height:30px;
+  background-color:#ffcc66;
+  border-radius:7.5px;
+  cursor:auto;
+  color:#b30000;
   font-variant:small-caps;
 }
 body{
@@ -20,4 +25,11 @@ a {
 }
 hr{
   border-color:#ffcc66;
+}
+b#greeting{
+  color:#b30000;
+}
+div#menu{
+  background-color:white;
+  
 }
