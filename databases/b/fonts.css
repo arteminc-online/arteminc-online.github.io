@@ -1,0 +1,7 @@
+@font-face {
+  font-family:supercell-magic;
+  src:url(resources/Supercell-magic-webfont.ttf);
+}
+#font-supercell {
+  font-family:supercell-magic;
+}
