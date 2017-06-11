@@ -15,7 +15,8 @@ m = months[m][0];
 document.querySelector("h1#month").innerHTML = m + " " + d.getFullYear();
 var day = 1;
 var row = 1;
-var cellNum = 1;
+var fday = new Date(d.getFullYear(), d.getMonth(), 1);
+var cellNum = fday.getDay();
 do {
   do {
     var specificDate = new Date(d.getFullYear(), d.getMonth(), day);
