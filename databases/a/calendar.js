@@ -31,7 +31,7 @@ do {
     }
     day++;
     cellNum++;
-  } while(cellNum < 7)
+  } while(cellNum < 8)
   cellNum = 1;
   row++;
 } while(row <= 6)
