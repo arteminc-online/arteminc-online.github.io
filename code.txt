@@ -1,0 +1,29 @@
+Here is the code:
+
+.htaccess
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+index.html
+
+<form action="create.php" method="post">
+Original URL: <input type="text" name="url">
+<br />
+Shortened URL: ai.net63.net/<input type="text" name="fname">
+<br />
+<input type="submit">
+</form>
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+create.php
+
+<?php
+$url = $_POST["url"];
+$fname = $_POST["fname"];
+$newfile = fopen($fname . ".php", "w") or die("Unable to open file!");
+$code = "<?php header('Location: " . $url ."'); exit; ?>";
+fwrite($newfile, $code);
+fclose($newfile);
+header('Location: success.html');
+?>
