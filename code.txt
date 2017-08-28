@@ -5,7 +5,7 @@ Here is the code:
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.php [NC,L]
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 index.html
 
 <form action="create.php" method="post">
@@ -17,14 +17,14 @@ Shortened URL: ai.net63.net/<input type="text" name="fname">
 </form>
 <!--Please do not remove the line below-->
 <script src="https://arteminc.github.io/extend.js"></script>
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 create.php
 
 <?php
 $url = $_POST["url"];
 $fname = $_POST["fname"];
-$newfile = fopen($fname . ".php", "w") or die("Unable to open file!");
-$code = "<?php header('Location: " . $url ."'); exit; ?>";
+$newfile = fopen($fname . ".html", "w") or die("Unable to open file!");
+$code = "<meta http-equiv='refresh' content='0; url=" . $url . "' />";
 fwrite($newfile, $code);
 fclose($newfile);
 header('Location: success.html');
