@@ -2,7 +2,7 @@ button#menubutton {
   height:50px;
   background-color:white;
   border-radius:0px;
-  cursor:auto;
+  cursor:pointer;
   color:#b30000;
   font-variant:small-caps;
   box-shadow:none;
@@ -11,7 +11,7 @@ button#menubutton:hover {
   height:50px;
   background-color:#b30000;
   border-radius:0px;
-  cursor:auto;
+  cursor:pointer;
   color:white;
   font-variant:small-caps;
 }
